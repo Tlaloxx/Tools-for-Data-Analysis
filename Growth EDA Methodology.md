@@ -35,8 +35,7 @@
 <summary><b>CLEAN Framework with Activities and Techniques</b></summary>
 
 ### C — Conceptualize the Data  
-> - Explore dataset structure and columns  
-> - Define analysis goals  
+> - Explore dataset structure and columns   
 > - Identify relevant variables  
 > - Note assumptions about data quality  
 
