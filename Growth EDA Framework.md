@@ -1,7 +1,8 @@
 # 🌱 GROWTH — Exploratory Data Analysis (EDA) Methodology  
 *By Tlaloc Alvarez*
 
-> **What is GROWTH?**  
+> **What is GROWTH?**
+> 
 > **GROWTH** is a practical methodology for conducting Exploratory Data Analysis (EDA) from start to finish. Each letter stands for a key step: **Goal**, **Review**, **Optimize**, **Work**, **Tell**, and **Highlight**. During the **Optimize** phase, you can apply the **CLEAN** method by Christine Jiang to make sure your dataset is accurate and ready for analysis, but feel free to use any tools that suit your needs. Think of this process like tending a garden—your raw data are seeds that, with proper care and structure, grow into valuable insights. This methodology works with any dataset and fosters clarity, consistency, and reproducibility.
 
 ---
