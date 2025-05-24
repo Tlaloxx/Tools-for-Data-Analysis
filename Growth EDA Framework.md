@@ -1,4 +1,5 @@
-# 🌱 GROWTH — Exploratory Data Analysis (EDA) Framework by Tlaloc Alvarez
+# 🌱 GROWTH — Exploratory Data Analysis (EDA) Framework 
+### by Tlaloc Alvarez
 
 A simple guide from setting goals to sharing clear insights.
 
