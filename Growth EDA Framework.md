@@ -6,7 +6,7 @@
 
 ---
 
-### **G — Goal: Define Objective**  
+### **G — Goal of Analysis**  
 - Identify the problem or question to solve  
 - Understand project context and scope  
 - Specify dataset source(s)  
@@ -15,7 +15,7 @@
 
 ---
 
-### **R — Review: Explore Data**  
+### **R — Review the Data**  
 - Check dataset size and data types  
 - Understand variable meanings  
 - Preview sample values and patterns  
@@ -24,16 +24,16 @@
 
 ---
 
-### **O — Optimize: Clean & Prepare (CLEAN)**  
-- Conceptualize data structure and content  
-- Locate duplicates, missing, irrelevant data  
-- Examine outliers and problematic entries  
-- Engineer new features, encode categorical variables  
-- Track all changes for traceability  
+### **O — Optimize the Data**  
+C — Conceptualize the dataset
+L — Locate missing, duplicates, irrelevant data
+E — Evaluate outliers and issues
+A — Augment with new features
+N — Note all changes made
 
 ---
 
-### **W — Work: Analyze Data**  
+### **W — Work the Data**  
 - Univariate analysis (distributions, summaries)  
 - Bivariate analysis (correlations, cross-tabs)  
 - Multivariate analysis (clustering, PCA, heatmaps)  
@@ -41,7 +41,7 @@
 
 ---
 
-### **T — Tell: Visualize Insights**  
+### **T — Tell with Visuals**  
 - Select appropriate, clear charts  
 - Build simple, interactive dashboards  
 - Highlight main patterns and insights  
@@ -49,7 +49,7 @@
 
 ---
 
-### **H — Highlight: Report Findings**  
+### **H — Highlight Results**  
 - Summarize key insights and their implications  
 - Document hypotheses tested and conclusions  
 - Note analysis limitations and risks  
