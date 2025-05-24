@@ -2,73 +2,48 @@
 
 A simple guide from setting goals to sharing clear insights by Tlaloc Alvarez
 
----
+```markdown
+### How to Use This Framework
 
-### G — Goal
+Follow the **GROWTH** steps in order to guide your exploratory data analysis from start to finish. Begin by clearly defining your goal, then review your data to understand its structure and quality. Next, optimize your dataset by cleaning and preparing it using the **CLEAN** method. Analyze the data thoroughly, visualize your insights clearly, and finally, highlight your key findings in a concise report. This structured approach helps ensure thoroughness, clarity, and actionable results for any data project.
+```
 
-Define the purpose and questions of your analysis.
-
-- Problem or questions to answer
-- Project context
+### G — Goal: Define Objective
+- What problem or question?
+- Project context & scope
 - Dataset source(s)
-- Team and stakeholders
-- Document for alignment
+- Stakeholders & team
+- Document goals
 
----
+### R — Review: Explore Data
+- Dataset size & types
+- Variable meanings
+- Preview values & patterns
+- Check quality (missing, outliers)
+- Note observations
 
-### R — Review
+### O — Optimize: Clean & Prepare (CLEAN)
+- Conceptualize data structure
+- Locate missing, duplicates, irrelevant
+- Evaluate outliers & issues
+- Augment features & encode
+- Note all changes
 
-Understand the data before changes.
+### W — Work: Analyze Data
+- Univariate (distributions, summaries)
+- Bivariate (correlations, comparisons)
+- Multivariate (clusters, PCA, heatmaps)
+- Use basic stats tests
 
-- Dataset size (rows, columns)
-- Data types and column meanings
-- Unique values, ranges, sample rows
-- Initial quality check (missing, outliers, formats)
+### T — Tell: Visualize Insights
+- Choose clear charts
+- Create interactive dashboards
+- Highlight key findings
+- Keep visuals simple
 
----
-
-### O — Optimize
-
-Clean and prepare data for analysis.
-
-- Understand data structure and meaning
-- Fix solvable issues
-- Assess ambiguous entries
-- Create new features and transformations
-- Track all changes for traceability
-
----
-
-### W — Work
-
-Explore data for patterns and insights.
-
-- Univariate: distributions, frequencies
-- Bivariate: correlations, scatter plots
-- Multivariate: clustering, PCA, heatmaps
-
----
-
-### T — Tell
-
-Visualize findings clearly.
-
-- Choose appropriate charts
-- Build simple dashboards with filters
-- Highlight key insights visually
-- Keep visuals clean and focused
-
----
-
-### H — Highlight
-
-Summarize and communicate results.
-
-- Key findings and impact
-- Tested hypotheses and outcomes
-- Limitations and risks
-- Next steps and recommendations
-- Organize files for future use
-
----
-
+### H — Highlight: Report Findings
+- Summarize insights & impact
+- Document hypotheses & conclusions
+- Note limitations & risks
+- Suggest next steps
+- Organize files for reuse
