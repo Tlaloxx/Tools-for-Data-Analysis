@@ -1,70 +1,71 @@
-# 🌱 GROWTH — Exploratory Data Analysis (EDA) Framework  
+# 🌱 GROWTH — Exploratory Data Analysis (EDA) Methodology  
 *By Tlaloc Alvarez*
 
-> **How to Use This Framework** </p>
-> The **GROWTH** framework is a step-by-step guide designed to help you carry out a complete Exploratory Data Analysis (EDA), from understanding your objective to communicating actionable insights. Each letter in the word **GROWTH** represents a key stage in the process: Goal, Review, Optimize, Work, Tell, and Highlight. During the "Optimize" step, you’ll use the **CLEAN** method to clean and prepare your data, ensuring it's accurate, consistent, and ready for analysis. This approach can be applied to any dataset and helps you maintain a structured, clear, and repeatable workflow. Think of it as growing a garden — you start with seeds (raw data) and nurture them through a thoughtful process until they bloom into valuable insights.
+> **What is GROWTH?**  
+> **GROWTH** is a practical methodology for conducting Exploratory Data Analysis (EDA) from start to finish. Each letter stands for a key step: **Goal**, **Review**, **Optimize**, **Work**, **Tell**, and **Highlight**.  
+> During the **Optimize** phase, you’ll use the **CLEAN** method to ensure your dataset is accurate and ready.  
+> Think of it like growing a garden—your raw data are seeds that, with care and structure, turn into useful insights. This method works with any dataset and promotes clarity, consistency, and reproducibility.
 
 ---
 
 ## G — Goal of the Analysis  
-> Clarify what you’re solving and why.
+> Define what you're solving and why it matters.
 
-- Define the core question or problem  
-- Understand the project's context and scope  
-- Identify dataset(s) and data sources  
+- Clarify the main question or problem  
+- Understand context and scope  
+- Identify datasets and sources  
 - List stakeholders and collaborators  
-- Document goals and success criteria  
+- Document clear objectives  
 
 ---
 
 ## R — Review the Data  
-> Explore your data before making changes.
+> Explore your dataset before making changes.
 
-- Check dataset shape and types  
-- Understand variable meanings  
-- Preview sample values and detect patterns  
-- Note early insights or concerns  
+- Check shape (rows, columns) and data types  
+- Understand what each variable means  
+- Preview sample values and patterns  
+- Detect missing values or outliers  
+- Note early observations  
 
 ---
 
 ## O — Optimize the Data (CLEAN Framework)  
-> Prepare your dataset using the **CLEAN** method:
+> Clean and prepare using the **CLEAN** method:
 
-- **C — Conceptualize**: Understand the structure and role of each variable  
-- **L — Locate**: Find missing values, duplicates, irrelevant entries  
-- **E — Evaluate**: Examine outliers and problematic records  
-- **A — Augment**: Add new features, encode variables, transform values  
-- **N — Note**: Document all changes for traceability  
+- **C — Conceptualize**: Understand the structure and meaning of the data  
+- **L — Locate**: Find missing, duplicate, or irrelevant entries  
+- **E — Evaluate**: Investigate outliers and quality issues  
+- **A — Augment**: Add new features or transform variables  
+- **N — Note**: Document all changes made  
 
 ---
 
 ## W — Work the Data  
-> Analyze your data to uncover patterns and relationships.
+> Analyze the data to discover patterns and relationships.
 
-- **Univariate**: Distributions, frequencies, averages  
-- **Bivariate**: Correlations, comparisons, cross-tabs  
+- **Univariate**: Distributions, summaries  
+- **Bivariate**: Correlations, comparisons  
 - **Multivariate**: Clusters, PCA, heatmaps  
-- Run basic statistical tests as needed  
+- Use basic stats tests where relevant  
 
 ---
 
 ## T — Tell with Visuals  
-> Communicate findings using clear visuals.
+> Communicate insights clearly with visuals.
 
-- Use appropriate charts (bar, line, scatter, map, etc.)  
-- Build simple dashboards or filtered views  
-- Highlight key insights with labels and color  
-- Avoid clutter and keep visuals clean  
+- Use the right charts (bar, line, scatter, pie, map)  
+- Build simple, interactive dashboards  
+- Highlight key points with labels and color  
+- Keep visuals clean and focused  
 
 ---
 
 ## H — Highlight Results  
-> Share insights, conclusions, and next steps.
+> Share conclusions and actionable outcomes.
 
-- Summarize key findings and their impact  
-- Report tested hypotheses and results  
-- Note limitations or risks  
-- Suggest recommendations or follow-up actions  
-- Organize files for reuse and sharing  
-
-
+- Summarize key insights and their impact  
+- Document hypotheses and findings  
+- Acknowledge limitations and risks  
+- Recommend next steps or actions  
+- Organize files for future reuse  
