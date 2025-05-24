@@ -20,7 +20,6 @@
 - Check shape (rows, columns) and data types  
 - Understand what each variable means  
 - Preview sample values and patterns  
-- Detect missing values or outliers  
 - Note early observations  
 
 ## O — Optimize the Data (CLEAN Framework)  
