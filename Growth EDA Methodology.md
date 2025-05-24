@@ -31,14 +31,17 @@
 - **A — Augment**: Add new features or transform variables  
 - **N — Note**: Document all changes made
 
-## C — Conceptualize the Data  
+<details>
+<summary><b>CLEAN Framework with Activities and Techniques</b></summary>
+
+### C — Conceptualize the Data  
 Understand the data and what questions you want to answer.  
 - Explore dataset structure and columns  
 - Define analysis goals  
 - Identify relevant variables for the problem  
 - Note initial assumptions about data quality and expected issues  
 
-## L — Locate Solvable Issues  
+### L — Locate Solvable Issues  
 Find problems in the data you can fix.  
 
 **Fixing Data:**  
@@ -52,14 +55,14 @@ Find problems in the data you can fix.
 - Ensure all data types are correct (text, numbers, dates)  
 - Filter, group, or aggregate data to simplify the dataset  
 
-## E — Evaluate Unsolvable Issues  
+### E — Evaluate Unsolvable Issues  
 Identify problems you can’t fully fix but need to acknowledge.  
 - Note missing values that cannot be fixed or imputed reliably  
 - Document data inconsistencies or possible biases  
 - Recognize limitations due to data collection methods or incomplete information  
 - Decide which outliers should be retained because they represent real phenomena  
 
-## A — Augment the Data  
+### A — Augment the Data  
 Add new features or enrich the dataset for better analysis.  
 
 **Feature Engineering:**  
@@ -69,13 +72,15 @@ Add new features or enrich the dataset for better analysis.
 - Create binary indicators (e.g., Active = 1, Inactive = 0)  
 - Combine or split columns to extract useful information (e.g., full name → first and last name)  
 
-## N — Note and Document  
+### N — Note and Document  
 Keep records of all cleaning decisions and changes made.  
 - Write down all data cleaning steps, reasons, and assumptions  
 - Track how missing values were handled  
 - Log feature engineering transformations  
 - Save versions of cleaned datasets  
 - Document limitations and unresolved issues clearly for future reference  
+
+</details>
 
 ## W — Work the Data  
 > Analyze the data to discover patterns and relationships.
