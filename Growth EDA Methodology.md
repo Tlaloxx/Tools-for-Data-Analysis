@@ -35,50 +35,41 @@
 <summary><b>CLEAN Framework with Activities and Techniques</b></summary>
 
 ### C — Conceptualize the Data  
-Understand the data and what questions you want to answer.  
-- Explore dataset structure and columns  
-- Define analysis goals  
-- Identify relevant variables for the problem  
-- Note initial assumptions about data quality and expected issues  
+> - Explore dataset structure and columns  
+> - Define analysis goals  
+> - Identify relevant variables  
+> - Note assumptions about data quality  
 
 ### L — Locate Solvable Issues  
-Find problems in the data you can fix.  
-
-**Fixing Data:**  
-- Remove irrelevant columns or rows  
-- Identify and remove duplicates  
-- Detect and handle outliers (unusual or extreme values)  
-- Handle missing values (fill with median, mean, or delete rows)  
-
-**Data Wrangling:**  
-- Check and correct inconsistent data formats (e.g., date formats, text case)  
-- Ensure all data types are correct (text, numbers, dates)  
-- Filter, group, or aggregate data to simplify the dataset  
+> **Fixing Data:**  
+> - Remove irrelevant or duplicate data  
+> - Handle outliers (unusual/extreme values)  
+> - Fix missing values (median, mean, or delete)  
+>
+> **Data Wrangling:**  
+> - Correct data formats and types  
+> - Filter, group, or aggregate data  
 
 ### E — Evaluate Unsolvable Issues  
-Identify problems you can’t fully fix but need to acknowledge.  
-- Note missing values that cannot be fixed or imputed reliably  
-- Document data inconsistencies or possible biases  
-- Recognize limitations due to data collection methods or incomplete information  
-- Decide which outliers should be retained because they represent real phenomena  
+> - Note missing data that can’t be fixed  
+> - Document inconsistencies and biases  
+> - Recognize limitations from data collection  
+> - Decide which outliers to keep  
 
 ### A — Augment the Data  
-Add new features or enrich the dataset for better analysis.  
-
-**Feature Engineering:**  
-- Create new columns from existing data (e.g., extract year/month from dates)  
-- Normalize or scale numerical data when necessary  
-- Encode categorical variables (one-hot encoding, label encoding)  
-- Create binary indicators (e.g., Active = 1, Inactive = 0)  
-- Combine or split columns to extract useful information (e.g., full name → first and last name)  
+> **Feature Engineering:**  
+> - Create new columns (e.g., extract year)  
+> - Normalize or scale data  
+> - Encode categorical variables  
+> - Create binary indicators  
+> - Split/combine columns (e.g., names)  
 
 ### N — Note and Document  
-Keep records of all cleaning decisions and changes made.  
-- Write down all data cleaning steps, reasons, and assumptions  
-- Track how missing values were handled  
-- Log feature engineering transformations  
-- Save versions of cleaned datasets  
-- Document limitations and unresolved issues clearly for future reference  
+> - Log cleaning steps and reasons  
+> - Track missing value handling  
+> - Record feature engineering changes  
+> - Save versions of cleaned data  
+> - Document limitations and unresolved issues  
 
 </details>
 
