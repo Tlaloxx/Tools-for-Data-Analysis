@@ -1,8 +1,8 @@
 # 🌱 GROWTH — Exploratory Data Analysis (EDA) Framework  
 *By Tlaloc Alvarez*
 
-> **How to Use This Framework**  
-> Follow the **GROWTH** steps sequentially to guide your exploratory data analysis — from defining your goal to sharing actionable insights. Use the **CLEAN** method during the Optimize step to ensure data quality. This workflow applies to any dataset and promotes clarity, structure, and reproducibility.
+> **How to Use This Framework**
+> The **GROWTH** framework is a step-by-step guide designed to help you carry out a complete Exploratory Data Analysis (EDA), from understanding your objective to communicating actionable insights. Each letter in the word **GROWTH** represents a key stage in the process: Goal, Review, Optimize, Work, Tell, and Highlight. During the "Optimize" step, you’ll use the **CLEAN** method to clean and prepare your data, ensuring it's accurate, consistent, and ready for analysis. This approach can be applied to any dataset and helps you maintain a structured, clear, and repeatable workflow. Think of it as growing a garden — you start with seeds (raw data) and nurture them through a thoughtful process until they bloom into valuable insights.
 
 ---
 
