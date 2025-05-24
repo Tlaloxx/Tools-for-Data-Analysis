@@ -1,57 +1,71 @@
 # 🌱 GROWTH — Exploratory Data Analysis (EDA) Framework  
-*By Tlaloc Alvarez*  
+*By Tlaloc Alvarez*
 
-> ### How to Use This Framework  
-> Follow the **GROWTH** steps sequentially to guide your exploratory data analysis from defining goals to sharing actionable insights. Start by clarifying your objective, review your dataset thoroughly, then optimize and clean your data using the **CLEAN** framework. Analyze the data deeply, visualize key findings clearly, and finish by reporting insights with recommendations. This ensures a structured, clear, and replicable workflow for any dataset.
-
----
-
-### **G — Goal of Analysis**  
-- Identify the problem or question to solve  
-- Understand project context and scope  
-- Specify dataset source(s)  
-- Identify stakeholders and team members  
-- Document clear goals  
+> **How to Use This Framework**  
+> Follow the **GROWTH** steps sequentially to guide your exploratory data analysis — from defining your goal to sharing actionable insights. Use the **CLEAN** method during the Optimize step to ensure data quality. This workflow applies to any dataset and promotes clarity, structure, and reproducibility.
 
 ---
 
-### **R — Review the Data**  
-- Check dataset size and data types  
+## G — Goal of the Analysis  
+> Clarify what you’re solving and why.
+
+- Define the core question or problem  
+- Understand the project's context and scope  
+- Identify dataset(s) and data sources  
+- List stakeholders and collaborators  
+- Document goals and success criteria  
+
+---
+
+## R — Review the Data  
+> Explore your data before making changes.
+
+- Check dataset shape and types  
 - Understand variable meanings  
-- Preview sample values and patterns  
-- Assess data quality: missing values, outliers  
-- Note initial observations  
+- Preview sample values and detect patterns  
+- Assess missing values and outliers  
+- Note early insights or concerns  
 
 ---
 
-### **O — Optimize the Data**  
-C — Conceptualize the dataset
-L — Locate missing, duplicates, irrelevant data
-E — Evaluate outliers and issues
-A — Augment with new features
-N — Note all changes made
+## O — Optimize the Data (CLEAN Framework)  
+> Prepare your dataset using the **CLEAN** method:
+
+- **C — Conceptualize**: Understand the structure and role of each variable  
+- **L — Locate**: Find missing values, duplicates, irrelevant entries  
+- **E — Evaluate**: Examine outliers and problematic records  
+- **A — Augment**: Add new features, encode variables, transform values  
+- **N — Note**: Document all changes for traceability  
 
 ---
 
-### **W — Work the Data**  
-- Univariate analysis (distributions, summaries)  
-- Bivariate analysis (correlations, cross-tabs)  
-- Multivariate analysis (clustering, PCA, heatmaps)  
-- Apply relevant statistical tests  
+## W — Work the Data  
+> Analyze your data to uncover patterns and relationships.
+
+- **Univariate**: Distributions, frequencies, averages  
+- **Bivariate**: Correlations, comparisons, cross-tabs  
+- **Multivariate**: Clusters, PCA, heatmaps  
+- Run basic statistical tests as needed  
 
 ---
 
-### **T — Tell with Visuals**  
-- Select appropriate, clear charts  
-- Build simple, interactive dashboards  
-- Highlight main patterns and insights  
-- Keep visuals clean and focused  
+## T — Tell with Visuals  
+> Communicate findings using clear visuals.
+
+- Use appropriate charts (bar, line, scatter, map, etc.)  
+- Build simple dashboards or filtered views  
+- Highlight key insights with labels and color  
+- Avoid clutter and keep visuals clean  
 
 ---
 
-### **H — Highlight Results**  
-- Summarize key insights and their implications  
-- Document hypotheses tested and conclusions  
-- Note analysis limitations and risks  
-- Propose next steps or recommendations  
-- Organize files and documentation for reuse  
+## H — Highlight Results  
+> Share insights, conclusions, and next steps.
+
+- Summarize key findings and their impact  
+- Report tested hypotheses and results  
+- Note limitations or risks  
+- Suggest recommendations or follow-up actions  
+- Organize files for reuse and sharing  
+
+
