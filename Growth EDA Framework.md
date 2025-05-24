@@ -23,7 +23,6 @@
 - Check dataset shape and types  
 - Understand variable meanings  
 - Preview sample values and detect patterns  
-- Assess missing values and outliers  
 - Note early insights or concerns  
 
 ---
