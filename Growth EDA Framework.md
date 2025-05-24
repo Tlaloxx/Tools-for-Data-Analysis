@@ -1,49 +1,57 @@
-# 🌱 GROWTH — Exploratory Data Analysis (EDA) Framework 
+# 🌱 GROWTH — Exploratory Data Analysis (EDA) Framework  
+*By Tlaloc Alvarez*  
 
-A simple guide from setting goals to sharing clear insights by Tlaloc Alvarez
+> ### How to Use This Framework  
+> Follow the **GROWTH** steps sequentially to guide your exploratory data analysis from defining goals to sharing actionable insights. Start by clarifying your objective, review your dataset thoroughly, then optimize and clean your data using the **CLEAN** framework. Analyze the data deeply, visualize key findings clearly, and finish by reporting insights with recommendations. This ensures a structured, clear, and replicable workflow for any dataset.
 
-```markdown
-### How to Use This Framework
+---
 
-Follow the **GROWTH** steps in order to guide your exploratory data analysis from start to finish. Begin by clearly defining your goal, then review your data to understand its structure and quality. Next, optimize your dataset by cleaning and preparing it using the **CLEAN** method. Analyze the data thoroughly, visualize your insights clearly, and finally, highlight your key findings in a concise report. This structured approach helps ensure thoroughness, clarity, and actionable results for any data project.
-```
+### **G — Goal: Define Objective**  
+- Identify the problem or question to solve  
+- Understand project context and scope  
+- Specify dataset source(s)  
+- Identify stakeholders and team members  
+- Document clear goals  
 
-### G — Goal: Define Objective
-- What problem or question?
-- Project context & scope
-- Dataset source(s)
-- Stakeholders & team
-- Document goals
+---
 
-### R — Review: Explore Data
-- Dataset size & types
-- Variable meanings
-- Preview values & patterns
-- Check quality (missing, outliers)
-- Note observations
+### **R — Review: Explore Data**  
+- Check dataset size and data types  
+- Understand variable meanings  
+- Preview sample values and patterns  
+- Assess data quality: missing values, outliers  
+- Note initial observations  
 
-### O — Optimize: Clean & Prepare (CLEAN)
-- Conceptualize data structure
-- Locate missing, duplicates, irrelevant
-- Evaluate outliers & issues
-- Augment features & encode
-- Note all changes
+---
 
-### W — Work: Analyze Data
-- Univariate (distributions, summaries)
-- Bivariate (correlations, comparisons)
-- Multivariate (clusters, PCA, heatmaps)
-- Use basic stats tests
+### **O — Optimize: Clean & Prepare (CLEAN)**  
+- Conceptualize data structure and content  
+- Locate duplicates, missing, irrelevant data  
+- Examine outliers and problematic entries  
+- Engineer new features, encode categorical variables  
+- Track all changes for traceability  
 
-### T — Tell: Visualize Insights
-- Choose clear charts
-- Create interactive dashboards
-- Highlight key findings
-- Keep visuals simple
+---
 
-### H — Highlight: Report Findings
-- Summarize insights & impact
-- Document hypotheses & conclusions
-- Note limitations & risks
-- Suggest next steps
-- Organize files for reuse
+### **W — Work: Analyze Data**  
+- Univariate analysis (distributions, summaries)  
+- Bivariate analysis (correlations, cross-tabs)  
+- Multivariate analysis (clustering, PCA, heatmaps)  
+- Apply relevant statistical tests  
+
+---
+
+### **T — Tell: Visualize Insights**  
+- Select appropriate, clear charts  
+- Build simple, interactive dashboards  
+- Highlight main patterns and insights  
+- Keep visuals clean and focused  
+
+---
+
+### **H — Highlight: Report Findings**  
+- Summarize key insights and their implications  
+- Document hypotheses tested and conclusions  
+- Note analysis limitations and risks  
+- Propose next steps or recommendations  
+- Organize files and documentation for reuse  
