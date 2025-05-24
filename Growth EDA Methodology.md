@@ -29,7 +29,53 @@
 - **L — Locate**: Find missing, duplicate, or irrelevant entries  
 - **E — Evaluate**: Investigate outliers and quality issues  
 - **A — Augment**: Add new features or transform variables  
-- **N — Note**: Document all changes made  
+- **N — Note**: Document all changes made
+
+## C — Conceptualize the Data  
+Understand the data and what questions you want to answer.  
+- Explore dataset structure and columns  
+- Define analysis goals  
+- Identify relevant variables for the problem  
+- Note initial assumptions about data quality and expected issues  
+
+## L — Locate Solvable Issues  
+Find problems in the data you can fix.  
+
+**Fixing Data:**  
+- Remove irrelevant columns or rows  
+- Identify and remove duplicates  
+- Detect and handle outliers (unusual or extreme values)  
+- Handle missing values (fill with median, mean, or delete rows)  
+
+**Data Wrangling:**  
+- Check and correct inconsistent data formats (e.g., date formats, text case)  
+- Ensure all data types are correct (text, numbers, dates)  
+- Filter, group, or aggregate data to simplify the dataset  
+
+## E — Evaluate Unsolvable Issues  
+Identify problems you can’t fully fix but need to acknowledge.  
+- Note missing values that cannot be fixed or imputed reliably  
+- Document data inconsistencies or possible biases  
+- Recognize limitations due to data collection methods or incomplete information  
+- Decide which outliers should be retained because they represent real phenomena  
+
+## A — Augment the Data  
+Add new features or enrich the dataset for better analysis.  
+
+**Feature Engineering:**  
+- Create new columns from existing data (e.g., extract year/month from dates)  
+- Normalize or scale numerical data when necessary  
+- Encode categorical variables (one-hot encoding, label encoding)  
+- Create binary indicators (e.g., Active = 1, Inactive = 0)  
+- Combine or split columns to extract useful information (e.g., full name → first and last name)  
+
+## N — Note and Document  
+Keep records of all cleaning decisions and changes made.  
+- Write down all data cleaning steps, reasons, and assumptions  
+- Track how missing values were handled  
+- Log feature engineering transformations  
+- Save versions of cleaned datasets  
+- Document limitations and unresolved issues clearly for future reference  
 
 ## W — Work the Data  
 > Analyze the data to discover patterns and relationships.
