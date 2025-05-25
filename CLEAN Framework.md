@@ -1,122 +1,155 @@
-# ✨ CLEAN Framework - Clean and Prepare Datasets
+# ✨ CLEAN Framework – Clean and Prepare Datasets
 
 ## 📌 About This Framework
 
-**CLEAN** is a practical and adaptable framework for cleaning and preparing datasets before analysis.  
-This version is a standardized and enriched adaptation created by **Tlaloc Alvarez**, based on industry best practices in Exploratory Data Analysis (EDA), and inspired by data experts like **Christine Jiang**, who introduced the original CLEAN concept.
-
-<br/>
+**CLEAN** is a practical and adaptable framework to clean and prepare datasets before analysis.  
+This enhanced version was created by **Tlaloc Alvarez**, inspired by best practices in EDA and the original CLEAN concept by **Christine Jiang**.
 
 🎥 **Watch the Original Presentation**  
-**Christine Jiang – _The ONLY Data Cleaning Framework You Need_**  
+_Christine Jiang – The ONLY Data Cleaning Framework You Need_  
 [![Watch on YouTube](https://img.youtube.com/vi/y9wFFD2bXQM/0.jpg)](https://www.youtube.com/watch?v=y9wFFD2bXQM)
 
-Use CLEAN as a flexible, step-by-step checklist to ensure your data is tidy, structured, and analysis-ready.  
-Ideal for analysts working in Excel, Python, Power BI, SQL, or any modern data tool.
+Use CLEAN as a step-by-step guide to ensure your data is clean, structured, and ready for analysis — no matter what tool you use (Excel, Python, SQL, Power BI, etc.).
 
-## 🧠 C – Conceptualize the Data
+---
 
-> _Understand the structure, meaning, and purpose of the data._
+## 🔠 The CLEAN Framework
 
-### ✅ Steps:
-- Identify key columns and their roles (e.g., ID, Date, Value, Category).
-- Detect variable types (categorical, numerical, date, etc.).
-- Understand business context and logic.
+<details>
+  <summary>🧠 <strong>C – Conceptualize the Data</strong></summary>
 
-### 🔧 Techniques:
-- Data dictionary creation  
-- Column profiling (summary statistics)  
-- Frequency counts for categorical data  
-- Visual table inspection or profiling tools
+> _Start with a clear mental model of your dataset._
 
-**🛠 Tools:** Excel, Power BI, pandas, OpenRefine
+### 🎯 Goal: Understand the purpose, structure, and meaning of your data.
 
-## 🔍 L – Locate Solvable Issues
+### ✅ Key Actions:
+- Identify key columns: ID fields, dates, measures, categories.
+- Detect data types: numerical, categorical, boolean, datetime.
+- Map relationships and hierarchies (e.g., customer → orders).
+- Understand the business context: what does each value mean?
 
-> _Find and fix common and correctable data problems._
+### 🔧 Useful Techniques:
+- Build a **data dictionary** with column definitions.
+- Use **summary statistics** and **value counts**.
+- Visually scan tables or use profiling tools.
 
-### ✅ Steps:
-- Handle missing values (Blank, Nulls, etc) 
-- Remove duplicates  
-- Normalize inconsistent formatting  
-- Fix invalid entries (e.g., negative ages)
+**🛠 Tools:** Excel, pandas, Power BI, OpenRefine
+</details>
 
-### 🔧 Techniques:
-- Drop rows/columns with excessive nulls  
-- Replace missing values (mean, median, mode, forward/backward fill)  
-- Use `TRIM`, `UPPER`, `LOWER`, `PROPER` for text normalization  
-- Apply filters and conditional formatting to spot issues
+---
+
+<details>
+  <summary>🔍 <strong>L – Locate Solvable Issues</strong></summary>
+
+> _Detect and fix common, correctable data problems._
+
+### 🎯 Goal: Clean up noise that can be easily resolved.
+
+### ✅ Key Actions:
+- Handle missing values logically (fill, delete, flag).
+- Remove exact duplicates.
+- Standardize inconsistent formatting (e.g., date or text cases).
+- Fix incorrect entries (e.g., invalid ages or negative values).
+
+### 🔧 Useful Techniques:
+- Use filters and conditional formatting to detect issues.
+- Apply text functions (`TRIM`, `UPPER`, etc.).
+- Use `fillna()`, `.dropna()`, `.duplicated()` in pandas.
+- Normalize date/time formats.
 
 **🛠 Tools:** Excel, Power Query, pandas, Data Wrangler
+</details>
 
-## ⚠️ E – Evaluate Unsolvable Issues
+---
 
-> _Identify issues that can’t be easily fixed and must be documented or excluded._
+<details>
+  <summary>⚠️ <strong>E – Evaluate Unsolvable Issues</strong></summary>
 
-### ✅ Steps:
-- Spot extreme outliers with no logical correction  
-- Flag irreparable missing values in critical columns  
-- Identify ambiguous or unreliable entries
+> _Identify deeper problems that can't be easily fixed._
 
-### 🔧 Techniques:
-- Boxplots or z-scores for outliers  
-- Create flags for suspicious records  
-- Log and review rows before removing
+### 🎯 Goal: Assess what’s missing, ambiguous, or unfixable.
 
-**🛠 Tools:** Power BI, pandas, seaborn, matplotlib
+### ✅ Key Actions:
+- Flag extreme outliers that lack explanation.
+- Identify missing values in critical fields.
+- Detect ambiguous or unreliable entries.
+- Decide what to drop, impute, or exclude — and justify it.
 
-## 🧩 A – Augment the Data
+### 🔧 Useful Techniques:
+- Use **boxplots**, **histograms**, or **z-scores**.
+- Flag and isolate suspicious records.
+- Keep logs of questionable entries before removal.
 
-> _Transform and enrich your dataset for better analysis._
+**🛠 Tools:** seaborn, matplotlib, Power BI, pandas
+</details>
 
-### ✅ Steps:
-- Reshape data (pivot/unpivot)  
-- Merge or append from other sources  
-- Create new features (e.g., month from date)  
-- Encode categorical variables  
-- Scale numerical data if needed
+---
 
-### 🔧 Techniques:
-- Use Power Query or pandas for merging/reshaping  
-- Date/time extraction (year, month, weekday)  
-- One-hot or label encoding  
-- Min-max or z-score normalization  
-- Group and aggregate for KPIs
+<details>
+  <summary>🧩 <strong>A – Augment the Data</strong></summary>
 
-**🛠 Tools:** Power BI, Excel, pandas, scikit-learn
+> _Enhance your dataset to support better analysis._
 
-## 📝 N – Note and Document
+### 🎯 Goal: Add value through transformation and enrichment.
 
-> _Keep a clear record of all changes and decisions._
+### ✅ Key Actions:
+- Reshape data: pivot, unpivot, transpose if needed.
+- Combine datasets (merge or append).
+- Create new features (e.g., year from a date).
+- Encode categories and scale numeric values if modeling.
 
-### ✅ Steps:
-- Document every cleaning step  
-- Save pre- and post-cleaning versions  
-- Explain assumptions and removals  
-- Create metadata for teams or future you
+### 🔧 Useful Techniques:
+- Feature engineering: extract parts of strings or dates.
+- Aggregation for KPIs or group analysis.
+- Use `merge()`, `melt()`, and `groupby()` in pandas.
+- Apply one-hot encoding or normalization.
 
-### 🔧 Techniques:
-- Maintain a cleaning log (spreadsheet or text)  
-- Use comments/notes in BI tools or notebooks  
-- Save intermediate versions during workflow
+**🛠 Tools:** pandas, Excel, Power Query, scikit-learn
+</details>
 
-**🛠 Tools:** Excel, Notion, markdown, version control (Git)
+---
+
+<details>
+  <summary>📝 <strong>N – Note and Document</strong></summary>
+
+> _Document every step to ensure transparency and reproducibility._
+
+### 🎯 Goal: Make your work traceable and explainable.
+
+### ✅ Key Actions:
+- Keep a cleaning log (Excel, markdown, Notion).
+- Comment code or transformations clearly.
+- Save versions before and after cleaning.
+- Write down assumptions, dropped fields, and logic used.
+
+### 🔧 Useful Techniques:
+- Use Git or backup files to track changes.
+- Insert inline comments or markdown cells in Jupyter.
+- Create README-style summaries for team sharing.
+
+**🛠 Tools:** Notion, Git, Excel, markdown, Jupyter
+</details>
+
+---
 
 ## ✅ Suggested Workflow
 
-1. **Conceptualize** the structure and meaning of your dataset.  
-2. **Locate** and fix all solvable issues.  
-3. **Evaluate** problematic or ambiguous entries.  
-4. **Augment** your data with transformations and new features.  
-5. **Note** all your changes to ensure traceability.
+1. **Conceptualize** the structure and business logic of your data.  
+2. **Locate** and correct all solvable issues.  
+3. **Evaluate** problems that can’t be fixed directly.  
+4. **Augment** your data for better insights or modeling.  
+5. **Note** your steps to ensure your process is transparent and replicable.
+
+---
 
 ## 💡 Pro Tips
 
-- 🔒 Always keep the original dataset untouched — work on a copy.  
-- 🔁 Cleaning is iterative — don’t hesitate to revisit steps.  
-- 👀 Trust your eyes — visual inspection is powerful.  
-- 🗒 Document everything — clarity beats memory.
+- 🔒 Always work on a copy of the original data.  
+- 🔁 Data cleaning is iterative — go back and refine as needed.  
+- 👁 Use visual tools to spot patterns or issues faster.  
+- 📚 Document everything — it saves time later.
 
-Feel free to **adapt or extend** this framework to fit your own workflow, tools, and industry needs.  
+---
 
 Made with care 💙 by **Tlaloc Alvarez**
+
