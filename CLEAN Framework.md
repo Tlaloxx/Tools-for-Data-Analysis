@@ -2,8 +2,7 @@
 
 ## 📌 About This Framework
 
-**CLEAN** is a practical and adaptable framework to clean and prepare datasets before analysis.  
-This enhanced version was created by **Tlaloc Alvarez**, inspired by best practices in EDA and the original CLEAN concept by **Christine Jiang**.
+**CLEAN** is a practical and adaptable framework to clean and prepare datasets before analysis. This enhanced version was created by **Tlaloc Alvarez**, inspired by the original CLEAN framework by **Christine Jiang**.
 
 🎥 **Watch the Original Presentation**  
 _Christine Jiang – The ONLY Data Cleaning Framework You Need_  
