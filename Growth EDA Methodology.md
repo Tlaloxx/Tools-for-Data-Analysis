@@ -22,8 +22,11 @@
 - Preview sample values and patterns  
 - Note early observations  
 
-## O — Optimize the Data (CLEAN Framework)  
-> Clean and prepare using the **CLEAN** method:
+## O — Optimize the Data
+> Clean, organize, and structure the data to make it efficient, readable, and ready for analysis.
+
+
+**CLEAN** method (optional):
 
 - **C — Conceptualize**: Understand the structure and meaning of the data  
 - **L — Locate**: Find missing, duplicate, or irrelevant entries  
